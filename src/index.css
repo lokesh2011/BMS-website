@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oleo+Script+Swash+Caps&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+html {
+    /* scroll-snap-type: y mandatory; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #EEF6F6;
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden;
+}
